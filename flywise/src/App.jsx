@@ -37,11 +37,11 @@ export default function Example() {
         ```
       */}
       <div className="min-h-full">
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-white">
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="flex h-16 items-center justify-between">
+                <div className="flex h-16 items-center justify-center">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
                       <img
@@ -50,8 +50,8 @@ export default function Example() {
                         alt="flywise logo"
                       />
                     </div>
-                    <div className="hidden md:block">
-                      <div className="ml-10 flex items-baseline space-x-4">
+                    <div className="hidden md:block ">
+                      <div className="ml-10 flex items-baseline space-x-4 ">
                         {navigation.map((item) => (
                           <a
                             key={item.name}
@@ -59,7 +59,7 @@ export default function Example() {
                             className={classNames(
                               item.current
                                 ? 'bg-gray-900 text-white'
-                                : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                : 'text-black hover:bg-gray-700 hover:text-white',
                               'rounded-md px-3 py-2 text-sm font-medium'
                             )}
                             aria-current={item.current ? 'page' : undefined}
@@ -70,8 +70,8 @@ export default function Example() {
                       </div>
                     </div>
                   </div>
-                  <div className="hidden md:block">
-                    <div className="ml-4 flex items-center md:ml-6">
+                  <div className="hidden md:block ">
+                    <div className="ml-4 flex items-center md:ml-6 ">
                       <button
                         type="button"
                         className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
