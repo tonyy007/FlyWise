@@ -4,13 +4,15 @@ import Flights from './components/flights.tsx';
 import Destination from './components/destination.tsx';
 import Main from './components/main.tsx';
 import News from './components/news.tsx';
+import NavBar from './components/navbar.tsx';
 import React from 'react';
 
 const App = () => {
   return (
      <>
+      <NavBar/>
         <Routes>
-           <Route path="/main" element={<Main />} />
+           <Route path="/" element={<Main />} />
            <Route path="/deals" element={<Deals />} />
            <Route path="/flights" element={<Flights />} />
            <Route path="/destinations" element={<Destination />} />
