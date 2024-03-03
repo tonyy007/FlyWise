@@ -1,0 +1,1193 @@
+{
+    "status": true,
+    "message": "Success",
+    "timestamp": 1702414886976,
+    "data": {
+        "hotels": [
+            {
+                "hotel_id": 55617,
+                "accessibilityLabel": "Embassy Suites Dallas - Park Central Area.\n3 out of 5 stars.\n7.4 Good 2052 reviews.\n‎Park Central‬ • ‎16 km from center‬\n‎Travel Sustainable‬.\n Hotel room : 2 beds.\nOriginal price 911 AED. Current price 820 AED..\n+139 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "reviewScore": 7.4,
+                    "priceBreakdown": {
+                        "excludedPrice": {
+                            "currency": "AED",
+                            "value": 139.337956141868
+                        },
+                        "strikethroughPrice": {
+                            "currency": "AED",
+                            "value": 910.70559569848
+                        },
+                        "taxExceptions": [],
+                        "benefitBadges": [
+                            {
+                                "text": "Mobile-only price",
+                                "explanation": "Mobile-only price",
+                                "variant": "constructive",
+                                "identifier": "Mobile Rate"
+                            }
+                        ],
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 819.635036128632
+                        }
+                    },
+                    "rankingPosition": 0,
+                    "latitude": 32.9272339126281,
+                    "checkoutDate": "2023-12-16",
+                    "accuratePropertyClass": 3,
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "untilTime": "23:00",
+                        "fromTime": "15:00"
+                    },
+                    "reviewCount": 2052,
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/484320268.jpg?k=da7b5728bc8c2fa2af435f052196e481b6ab8f64b77bdd0135961ce1828c180d&o="
+                    ],
+                    "blockIds": [
+                        "5561701_266277513_2_1_0"
+                    ],
+                    "name": "Embassy Suites Dallas - Park Central Area",
+                    "qualityClass": 0,
+                    "reviewScoreWord": "Good",
+                    "countryCode": "us",
+                    "isFirstPage": true,
+                    "propertyClass": 3,
+                    "ufi": 20127504,
+                    "checkout": {
+                        "untilTime": "12:00",
+                        "fromTime": "00:00"
+                    },
+                    "isPreferred": true,
+                    "position": 0,
+                    "longitude": -96.7624551057816,
+                    "mainPhotoId": 484320268,
+                    "currency": "USD",
+                    "wishlistName": "Dallas",
+                    "checkinDate": "2023-12-14",
+                    "id": 55617
+                }
+            },
+            {
+                "hotel_id": 264305,
+                "accessibilityLabel": "Sonesta Select Dallas Central Expressway.\n3 out of 5 stars.\n8.2 Very Good 1308 reviews.\n‎12 km from center‬\n‎Travel Sustainable‬\n‎This property has free cribs available‬.\n2 beds.\n723 AED.\n+125 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "checkoutDate": "2023-12-16",
+                    "accuratePropertyClass": 3,
+                    "latitude": 32.8865765752512,
+                    "rankingPosition": 1,
+                    "reviewScore": 8.2,
+                    "priceBreakdown": {
+                        "benefitBadges": [],
+                        "grossPrice": {
+                            "value": 722.688956586536,
+                            "currency": "AED"
+                        },
+                        "taxExceptions": [],
+                        "excludedPrice": {
+                            "value": 124.736113906836,
+                            "currency": "AED"
+                        }
+                    },
+                    "blockIds": [
+                        "26430508_295485447_4_2_0"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/305739838.jpg?k=617017fdde2817ad2ffac9f7f5da4a847a76c0d76342513297ca3b218b92219c&o="
+                    ],
+                    "optOutFromGalleryChanges": 1,
+                    "checkin": {
+                        "fromTime": "16:00",
+                        "untilTime": "00:00"
+                    },
+                    "reviewCount": 1308,
+                    "propertyClass": 3,
+                    "ufi": 20127504,
+                    "countryCode": "us",
+                    "isFirstPage": true,
+                    "qualityClass": 0,
+                    "name": "Sonesta Select Dallas Central Expressway",
+                    "reviewScoreWord": "Very Good",
+                    "currency": "USD",
+                    "checkinDate": "2023-12-14",
+                    "wishlistName": "Dallas",
+                    "id": 264305,
+                    "position": 1,
+                    "longitude": -96.7704936861992,
+                    "mainPhotoId": 305739838,
+                    "isPreferredPlus": true,
+                    "isPreferred": true,
+                    "checkout": {
+                        "untilTime": "11:00",
+                        "fromTime": "00:00"
+                    }
+                }
+            },
+            {
+                "hotel_id": 320559,
+                "accessibilityLabel": "Wingate by Wyndham Dallas Love Field.\n3 out of 5 stars.\n7.5 Good 1005 reviews.\n‎9 km from center‬\n‎Travel Sustainable‬.\n Hotel room : 1 bed.\nOriginal price 618 AED. Current price 556 AED..\n+83 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "checkout": {
+                        "untilTime": "11:00",
+                        "fromTime": "00:00"
+                    },
+                    "isPreferred": true,
+                    "position": 2,
+                    "longitude": -96.87275826931,
+                    "mainPhotoId": 141003023,
+                    "currency": "USD",
+                    "wishlistName": "Dallas",
+                    "id": 320559,
+                    "checkinDate": "2023-12-14",
+                    "qualityClass": 0,
+                    "name": "Wingate by Wyndham Dallas Love Field",
+                    "reviewScoreWord": "Good",
+                    "isFirstPage": true,
+                    "countryCode": "us",
+                    "propertyClass": 3,
+                    "ufi": 20127504,
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "untilTime": "00:00",
+                        "fromTime": "15:00"
+                    },
+                    "reviewCount": 1005,
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/141003023.jpg?k=5745b62333842fec7ce3d27f54cf6deb2106809623f412e0e5667c60dc38484f&o="
+                    ],
+                    "blockIds": [
+                        "32055911_375372141_2_1_0"
+                    ],
+                    "reviewScore": 7.5,
+                    "priceBreakdown": {
+                        "taxExceptions": [],
+                        "benefitBadges": [
+                            {
+                                "explanation": "Mobile-only price",
+                                "text": "Mobile-only price",
+                                "identifier": "Mobile Rate",
+                                "variant": "constructive"
+                            }
+                        ],
+                        "grossPrice": {
+                            "value": 556.228131372778,
+                            "currency": "AED"
+                        },
+                        "excludedPrice": {
+                            "currency": "AED",
+                            "value": 83.4342197059166
+                        },
+                        "strikethroughPrice": {
+                            "value": 618.031257080864,
+                            "currency": "AED"
+                        }
+                    },
+                    "rankingPosition": 2,
+                    "latitude": 32.8296587586325,
+                    "checkoutDate": "2023-12-16",
+                    "accuratePropertyClass": 3
+                }
+            },
+            {
+                "hotel_id": 6826807,
+                "accessibilityLabel": "La Quinta Inn & Suites by Wyndham Dallas/Fairpark.\n3 out of 5 stars.\n7.3 Good 1136 reviews.\n‎10 km from center‬.\n Hotel room : 2 beds.\n646 AED.\n+97 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "isPreferred": true,
+                    "checkout": {
+                        "fromTime": "00:00",
+                        "untilTime": "11:00"
+                    },
+                    "checkinDate": "2023-12-14",
+                    "wishlistName": "Dallas",
+                    "id": 6826807,
+                    "currency": "USD",
+                    "mainPhotoId": 278929921,
+                    "position": 3,
+                    "longitude": -96.69442,
+                    "reviewScoreWord": "Good",
+                    "name": "La Quinta Inn & Suites by Wyndham Dallas/Fairpark",
+                    "qualityClass": 0,
+                    "ufi": 20127504,
+                    "propertyClass": 3,
+                    "isFirstPage": true,
+                    "countryCode": "us",
+                    "reviewCount": 1136,
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "untilTime": "00:00",
+                        "fromTime": "15:00"
+                    },
+                    "blockIds": [
+                        "682680710_278280001_2_1_0"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/278929921.jpg?k=ba630aab1e4c1d2a98c2c41d14b8f57792e37257348d72aad15f5371856607b8&o="
+                    ],
+                    "rankingPosition": 3,
+                    "priceBreakdown": {
+                        "excludedPrice": {
+                            "value": 96.8689633424605,
+                            "currency": "AED"
+                        },
+                        "taxExceptions": [],
+                        "grossPrice": {
+                            "value": 645.793088949737,
+                            "currency": "AED"
+                        },
+                        "benefitBadges": [
+                            {
+                                "identifier": "Late Escape Campaign",
+                                "variant": "constructive",
+                                "explanation": "Late Escape Deal",
+                                "text": "Late Escape Deal"
+                            }
+                        ]
+                    },
+                    "reviewScore": 7.3,
+                    "accuratePropertyClass": 3,
+                    "checkoutDate": "2023-12-16",
+                    "latitude": 32.79588
+                }
+            },
+            {
+                "hotel_id": 2183429,
+                "accessibilityLabel": "La Quinta by Wyndham Dallas - Richardson.\n3 out of 5 stars.\n7.5 Good 646 reviews.\n‎Park Central‬ • ‎17 km from center‬\n‎This property has free cribs available‬.\n Hotel room : 2 beds.\n602 AED.\n+90 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "reviewScore": 7.5,
+                    "priceBreakdown": {
+                        "taxExceptions": [],
+                        "benefitBadges": [
+                            {
+                                "explanation": "Late Escape Deal",
+                                "text": "Late Escape Deal",
+                                "identifier": "Late Escape Campaign",
+                                "variant": "constructive"
+                            }
+                        ],
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 602.42440715458
+                        },
+                        "excludedPrice": {
+                            "currency": "AED",
+                            "value": 90.3636610731869
+                        }
+                    },
+                    "rankingPosition": 4,
+                    "latitude": 32.92832,
+                    "checkoutDate": "2023-12-16",
+                    "accuratePropertyClass": 3,
+                    "reviewCount": 646,
+                    "checkin": {
+                        "untilTime": "00:00",
+                        "fromTime": "15:00"
+                    },
+                    "optOutFromGalleryChanges": 0,
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/194593284.jpg?k=04e7e4b54b2b36055de039e4540da67751a2aa869eeb268490bbbec7bb014ca7&o="
+                    ],
+                    "blockIds": [
+                        "218342901_246093443_2_1_0"
+                    ],
+                    "qualityClass": 0,
+                    "name": "La Quinta by Wyndham Dallas - Richardson",
+                    "reviewScoreWord": "Good",
+                    "countryCode": "us",
+                    "isFirstPage": true,
+                    "ufi": 20127504,
+                    "propertyClass": 3,
+                    "checkout": {
+                        "untilTime": "11:00",
+                        "fromTime": "00:00"
+                    },
+                    "isPreferred": true,
+                    "mainPhotoId": 194593284,
+                    "longitude": -96.763272,
+                    "position": 4,
+                    "currency": "USD",
+                    "wishlistName": "Dallas",
+                    "checkinDate": "2023-12-14",
+                    "id": 2183429
+                }
+            },
+            {
+                "hotel_id": 464605,
+                "accessibilityLabel": "La Quinta by Wyndham Dallas North Central.\n3 out of 5 stars.\n7.6 Good 1294 reviews.\n‎11 km from center‬.\n Hotel room : 1 bed.\nOriginal price 635 AED. Current price 571 AED..\n+99 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/266345579.jpg?k=e5ac2f19f2924abe2731d2e26581d8ac08b6f7af41e84261f1e78e0b9a34d8ad&o="
+                    ],
+                    "blockIds": [
+                        "46460501_246079979_2_1_0"
+                    ],
+                    "checkin": {
+                        "fromTime": "15:00",
+                        "untilTime": "00:00"
+                    },
+                    "optOutFromGalleryChanges": 1,
+                    "reviewCount": 1294,
+                    "latitude": 32.8829693196879,
+                    "accuratePropertyClass": 3,
+                    "checkoutDate": "2023-12-16",
+                    "priceBreakdown": {
+                        "strikethroughPrice": {
+                            "currency": "AED",
+                            "value": 634.556157002812
+                        },
+                        "excludedPrice": {
+                            "value": 98.8003936453379,
+                            "currency": "AED"
+                        },
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 571.100541302531
+                        },
+                        "benefitBadges": [
+                            {
+                                "variant": "constructive",
+                                "identifier": "Mobile Rate",
+                                "text": "Mobile-only price",
+                                "explanation": "Mobile-only price"
+                            }
+                        ],
+                        "taxExceptions": []
+                    },
+                    "reviewScore": 7.6,
+                    "rankingPosition": 5,
+                    "position": 5,
+                    "longitude": -96.770823597908,
+                    "mainPhotoId": 266345579,
+                    "checkinDate": "2023-12-14",
+                    "wishlistName": "Dallas",
+                    "id": 464605,
+                    "currency": "USD",
+                    "checkout": {
+                        "fromTime": "00:00",
+                        "untilTime": "11:00"
+                    },
+                    "isPreferred": true,
+                    "isFirstPage": true,
+                    "countryCode": "us",
+                    "propertyClass": 3,
+                    "ufi": 20127504,
+                    "reviewScoreWord": "Good",
+                    "name": "La Quinta by Wyndham Dallas North Central",
+                    "qualityClass": 0
+                }
+            },
+            {
+                "hotel_id": 368787,
+                "accessibilityLabel": "Alexis Hotel & Banquets Dallas Park Central Galleria.\n3 out of 5 stars.\n7.3 Good 1783 reviews.\n‎Park Central‬ • ‎16 km from center‬.\n Hotel room : 1 bed.\nOriginal price 643 AED. Current price 526 AED..\n+98 AED taxes and charges.\nFree cancellation.",
+                "property": {
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/420056477.jpg?k=d6c406ad43f2370a8c755c919f03057580894b17daebf68d167ab4cebde4dba3&o="
+                    ],
+                    "blockIds": [
+                        "36878709_384509844_0_0_0"
+                    ],
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "fromTime": "15:00",
+                        "untilTime": "00:00"
+                    },
+                    "reviewCount": 1783,
+                    "latitude": 32.9252121833214,
+                    "accuratePropertyClass": 3,
+                    "checkoutDate": "2023-12-16",
+                    "priceBreakdown": {
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 526.336423513965
+                        },
+                        "benefitBadges": [
+                            {
+                                "text": "Mobile-only price",
+                                "explanation": "Mobile-only price",
+                                "variant": "constructive",
+                                "identifier": "Mobile Rate"
+                            }
+                        ],
+                        "taxExceptions": [],
+                        "strikethroughPrice": {
+                            "currency": "AED",
+                            "value": 642.634996964654
+                        },
+                        "excludedPrice": {
+                            "value": 98.323154535592,
+                            "currency": "AED"
+                        }
+                    },
+                    "reviewScore": 7.3,
+                    "rankingPosition": 6,
+                    "longitude": -96.770815551281,
+                    "position": 6,
+                    "mainPhotoId": 420056477,
+                    "wishlistName": "Dallas",
+                    "id": 368787,
+                    "checkinDate": "2023-12-14",
+                    "currency": "USD",
+                    "checkout": {
+                        "fromTime": "00:00",
+                        "untilTime": "11:00"
+                    },
+                    "isPreferred": true,
+                    "isFirstPage": true,
+                    "countryCode": "us",
+                    "propertyClass": 3,
+                    "ufi": 20127504,
+                    "reviewScoreWord": "Good",
+                    "name": "Alexis Hotel & Banquets Dallas Park Central Galleria",
+                    "qualityClass": 0
+                }
+            },
+            {
+                "hotel_id": 42596,
+                "accessibilityLabel": "Hilton Anatole.\n4 out of 5 stars.\n7.9 Good 396 reviews.\n‎3.6 km from center‬\n‎Travel Sustainable‬.\n Hotel room : 1 bed.\n1425 AED.\n+481 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "checkout": {
+                        "untilTime": "11:00",
+                        "fromTime": "00:00"
+                    },
+                    "isPreferred": true,
+                    "longitude": -96.8326216936111,
+                    "position": 7,
+                    "mainPhotoId": 511372873,
+                    "wishlistName": "Dallas",
+                    "checkinDate": "2023-12-14",
+                    "id": 42596,
+                    "currency": "USD",
+                    "reviewScoreWord": "Good",
+                    "qualityClass": 0,
+                    "name": "Hilton Anatole",
+                    "countryCode": "us",
+                    "isFirstPage": true,
+                    "propertyClass": 4,
+                    "ufi": 20127504,
+                    "checkin": {
+                        "untilTime": "23:00",
+                        "fromTime": "16:00"
+                    },
+                    "optOutFromGalleryChanges": 0,
+                    "reviewCount": 396,
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/511372873.jpg?k=ec4b092d0dc165a7baf5c6676ac147fd9865b2789eba75966156ea0415370ab3&o="
+                    ],
+                    "blockIds": [
+                        "4259634_119150653_2_2_0"
+                    ],
+                    "priceBreakdown": {
+                        "taxExceptions": [],
+                        "benefitBadges": [],
+                        "grossPrice": {
+                            "value": 1424.8135932702,
+                            "currency": "AED"
+                        },
+                        "excludedPrice": {
+                            "value": 480.687129263979,
+                            "currency": "AED"
+                        }
+                    },
+                    "reviewScore": 7.9,
+                    "rankingPosition": 7,
+                    "latitude": 32.8005278296647,
+                    "accuratePropertyClass": 4,
+                    "checkoutDate": "2023-12-16"
+                }
+            },
+            {
+                "hotel_id": 42818,
+                "accessibilityLabel": "Hilton Dallas Lincoln Centre.\n4 out of 5 stars.\n8.1 Very Good 1260 reviews.\n‎Galleria‬ • ‎16 km from center‬\n‎Travel Sustainable‬.\n Hotel room : 2 beds.\n1111 AED.\n+194 AED taxes and charges.",
+                "property": {
+                    "checkin": {
+                        "fromTime": "16:00",
+                        "untilTime": "00:00"
+                    },
+                    "optOutFromGalleryChanges": 0,
+                    "reviewCount": 1260,
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/484321840.jpg?k=63032bd67d4f7f3273cde04bda20e5d816590326e28be33233ca27a322bc88b8&o="
+                    ],
+                    "blockIds": [
+                        "4281814_94261222_2_2_0"
+                    ],
+                    "priceBreakdown": {
+                        "taxExceptions": [],
+                        "grossPrice": {
+                            "value": 1110.91393875284,
+                            "currency": "AED"
+                        },
+                        "benefitBadges": [],
+                        "excludedPrice": {
+                            "currency": "AED",
+                            "value": 193.547870065275
+                        }
+                    },
+                    "reviewScore": 8.1,
+                    "rankingPosition": 8,
+                    "latitude": 32.9244129346071,
+                    "accuratePropertyClass": 4,
+                    "checkoutDate": "2023-12-16",
+                    "checkout": {
+                        "untilTime": "11:00",
+                        "fromTime": "00:00"
+                    },
+                    "isPreferred": true,
+                    "position": 8,
+                    "longitude": -96.8166115880012,
+                    "mainPhotoId": 484321840,
+                    "wishlistName": "Dallas",
+                    "id": 42818,
+                    "checkinDate": "2023-12-14",
+                    "currency": "USD",
+                    "reviewScoreWord": "Very Good",
+                    "qualityClass": 0,
+                    "name": "Hilton Dallas Lincoln Centre",
+                    "countryCode": "us",
+                    "isFirstPage": true,
+                    "propertyClass": 4,
+                    "ufi": 20127504
+                }
+            },
+            {
+                "hotel_id": 1502597,
+                "accessibilityLabel": "Hampton Inn & Suites Dallas Downtown.\n3 out of 5 stars.\n8.3 Very Good 1304 reviews.\n‎Main Street District‬ • ‎450 m from center‬\n‎Travel Sustainable‬\n‎This property has free cribs available‬.\n2 beds.\n1113 AED.\n+200 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "untilTime": "00:00",
+                        "fromTime": "15:00"
+                    },
+                    "reviewCount": 1304,
+                    "blockIds": [
+                        "150259706_372474126_2_1_0"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/484318912.jpg?k=fcbeebff1356d90c4a21d876bee70a4efc900d3239100947005f74e3e0faf7d3&o="
+                    ],
+                    "rankingPosition": 9,
+                    "priceBreakdown": {
+                        "excludedPrice": {
+                            "currency": "AED",
+                            "value": 199.72544875664
+                        },
+                        "benefitBadges": [],
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 1112.67659474451
+                        },
+                        "taxExceptions": []
+                    },
+                    "reviewScore": 8.3,
+                    "accuratePropertyClass": 3,
+                    "checkoutDate": "2023-12-16",
+                    "latitude": 32.780193,
+                    "isPreferred": true,
+                    "checkout": {
+                        "fromTime": "00:00",
+                        "untilTime": "11:00"
+                    },
+                    "checkinDate": "2023-12-14",
+                    "wishlistName": "Dallas",
+                    "id": 1502597,
+                    "currency": "USD",
+                    "longitude": -96.796616,
+                    "position": 9,
+                    "mainPhotoId": 484318912,
+                    "reviewScoreWord": "Very Good",
+                    "name": "Hampton Inn & Suites Dallas Downtown",
+                    "qualityClass": 0,
+                    "propertyClass": 3,
+                    "ufi": 20127504,
+                    "isFirstPage": true,
+                    "countryCode": "us"
+                }
+            },
+            {
+                "hotel_id": 3474999,
+                "accessibilityLabel": "Holiday Inn Express & Suites - Dallas NW HWY - Love Field, an IHG Hotel.\n3 out of 5 stars.\n8.9 Excellent 513 reviews.\n‎13 km from center‬.\n Hotel room : 2 beds.\n874 AED.\n+151 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "rankingPosition": 10,
+                    "reviewScore": 8.9,
+                    "priceBreakdown": {
+                        "excludedPrice": {
+                            "value": 151.199162085844,
+                            "currency": "AED"
+                        },
+                        "grossPrice": {
+                            "value": 873.983595871929,
+                            "currency": "AED"
+                        },
+                        "benefitBadges": [],
+                        "taxExceptions": []
+                    },
+                    "checkoutDate": "2023-12-16",
+                    "accuratePropertyClass": 3,
+                    "latitude": 32.8602435,
+                    "reviewCount": 513,
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "fromTime": "15:00",
+                        "untilTime": "00:00"
+                    },
+                    "blockIds": [
+                        "347499919_244920384_2_1_0"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/234823479.jpg?k=411277581548ef761699ff864d7cb908f78cfffd4ace5aba6b6418f5407909b5&o="
+                    ],
+                    "qualityClass": 0,
+                    "name": "Holiday Inn Express & Suites - Dallas NW HWY - Love Field, an IHG Hotel",
+                    "reviewScoreWord": "Excellent",
+                    "ufi": 20127504,
+                    "propertyClass": 3,
+                    "isFirstPage": true,
+                    "countryCode": "us",
+                    "isPreferred": true,
+                    "checkout": {
+                        "fromTime": "00:00",
+                        "untilTime": "12:00"
+                    },
+                    "currency": "USD",
+                    "checkinDate": "2023-12-14",
+                    "wishlistName": "Dallas",
+                    "id": 3474999,
+                    "mainPhotoId": 234823479,
+                    "longitude": -96.8996825,
+                    "position": 10
+                }
+            },
+            {
+                "hotel_id": 250160,
+                "accessibilityLabel": "Baymont by Wyndham Dallas/ Love Field.\n3 out of 5 stars.\n7.5 Good 1162 reviews.\n‎12 km from center‬\n‎Travel Sustainable‬.\n2 beds.\n665 AED.\n+100 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "reviewScore": 7.5,
+                    "priceBreakdown": {
+                        "benefitBadges": [],
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 664.668196860585
+                        },
+                        "taxExceptions": [],
+                        "excludedPrice": {
+                            "value": 99.7002295290877,
+                            "currency": "AED"
+                        }
+                    },
+                    "rankingPosition": 11,
+                    "latitude": 32.8590707821027,
+                    "checkoutDate": "2023-12-16",
+                    "accuratePropertyClass": 3,
+                    "reviewCount": 1162,
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "untilTime": "00:00",
+                        "fromTime": "15:00"
+                    },
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/139382628.jpg?k=27e01c064fa7a39096257925d09c1248a49f514fe5960f27736d0673f2e974c7&o="
+                    ],
+                    "blockIds": [
+                        "25016021_275850882_2_1_0"
+                    ],
+                    "qualityClass": 0,
+                    "name": "Baymont by Wyndham Dallas/ Love Field",
+                    "reviewScoreWord": "Good",
+                    "countryCode": "us",
+                    "isFirstPage": true,
+                    "ufi": 20127504,
+                    "propertyClass": 3,
+                    "checkout": {
+                        "fromTime": "00:00",
+                        "untilTime": "11:00"
+                    },
+                    "isPreferred": true,
+                    "mainPhotoId": 139382628,
+                    "longitude": -96.8853136897087,
+                    "position": 11,
+                    "currency": "USD",
+                    "wishlistName": "Dallas",
+                    "id": 250160,
+                    "checkinDate": "2023-12-14"
+                }
+            },
+            {
+                "hotel_id": 182571,
+                "accessibilityLabel": "Crowne Plaza Dallas Market Center, an IHG Hotel.\n4 out of 5 stars.\n6.9 Pleasant 1722 reviews.\n‎7 km from center‬.\n Hotel room : 2 beds.\nOriginal price 801 AED. Current price 720 AED..\n+122 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/234906359.jpg?k=b989bfd2c094fdc5ee4a408be36ea18fabfe9f6ba8f39c3d1865b5dcfabb9646&o="
+                    ],
+                    "blockIds": [
+                        "18257119_246084904_4_0_0"
+                    ],
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "fromTime": "15:00",
+                        "untilTime": "00:00"
+                    },
+                    "reviewCount": 1722,
+                    "latitude": 32.8162046708238,
+                    "checkoutDate": "2023-12-16",
+                    "accuratePropertyClass": 4,
+                    "reviewScore": 6.9,
+                    "priceBreakdown": {
+                        "taxExceptions": [],
+                        "benefitBadges": [
+                            {
+                                "explanation": "Mobile-only price",
+                                "text": "Mobile-only price",
+                                "identifier": "Mobile Rate",
+                                "variant": "constructive"
+                            }
+                        ],
+                        "grossPrice": {
+                            "value": 720.485636596943,
+                            "currency": "AED"
+                        },
+                        "excludedPrice": {
+                            "currency": "AED",
+                            "value": 122.48255822148
+                        },
+                        "strikethroughPrice": {
+                            "value": 800.539596218826,
+                            "currency": "AED"
+                        }
+                    },
+                    "rankingPosition": 12,
+                    "position": 12,
+                    "longitude": -96.8668305873871,
+                    "mainPhotoId": 234906359,
+                    "currency": "USD",
+                    "wishlistName": "Dallas",
+                    "checkinDate": "2023-12-14",
+                    "id": 182571,
+                    "checkout": {
+                        "fromTime": "00:00",
+                        "untilTime": "11:00"
+                    },
+                    "isPreferred": true,
+                    "isFirstPage": true,
+                    "countryCode": "us",
+                    "propertyClass": 4,
+                    "ufi": 20127504,
+                    "name": "Crowne Plaza Dallas Market Center, an IHG Hotel",
+                    "qualityClass": 0,
+                    "reviewScoreWord": "Pleasant"
+                }
+            },
+            {
+                "hotel_id": 42827,
+                "accessibilityLabel": "DoubleTree by Hilton Hotel Dallas Campbell Centre.\n3 out of 5 stars.\n8.3 Very Good 711 reviews.\n‎9 km from center‬\n‎Travel Sustainable‬.\n Hotel room : 2 beds.\n1149 AED.\n+199 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "rankingPosition": 13,
+                    "reviewScore": 8.3,
+                    "priceBreakdown": {
+                        "taxExceptions": [],
+                        "grossPrice": {
+                            "value": 1149.39859457107,
+                            "currency": "AED"
+                        },
+                        "benefitBadges": [],
+                        "excludedPrice": {
+                            "value": 198.845956860794,
+                            "currency": "AED"
+                        }
+                    },
+                    "checkoutDate": "2023-12-16",
+                    "accuratePropertyClass": 3,
+                    "latitude": 32.8628491103103,
+                    "checkin": {
+                        "untilTime": "00:00",
+                        "fromTime": "15:00"
+                    },
+                    "optOutFromGalleryChanges": 0,
+                    "reviewCount": 711,
+                    "blockIds": [
+                        "4282718_266270726_2_34_0"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/484341069.jpg?k=e3e0fb1503418811377c776b1fd7d1b67fadd216449e03035b7a07be63187557&o="
+                    ],
+                    "name": "DoubleTree by Hilton Hotel Dallas Campbell Centre",
+                    "qualityClass": 0,
+                    "reviewScoreWord": "Very Good",
+                    "propertyClass": 3,
+                    "ufi": 20127504,
+                    "countryCode": "us",
+                    "isFirstPage": true,
+                    "isPreferred": true,
+                    "checkout": {
+                        "fromTime": "01:00",
+                        "untilTime": "12:00"
+                    },
+                    "currency": "USD",
+                    "wishlistName": "Dallas",
+                    "id": 42827,
+                    "checkinDate": "2023-12-14",
+                    "longitude": -96.7689085006714,
+                    "position": 13,
+                    "mainPhotoId": 484341069
+                }
+            },
+            {
+                "hotel_id": 42484,
+                "accessibilityLabel": "Embassy Suites by Hilton Dallas-Love Field.\n3 out of 5 stars.\n8.6 Excellent 891 reviews.\n‎10 km from center‬\n‎Travel Sustainable‬.\n Hotel room : 2 beds.\n1083 AED.\n+187 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "name": "Embassy Suites by Hilton Dallas-Love Field",
+                    "qualityClass": 0,
+                    "reviewScoreWord": "Excellent",
+                    "propertyClass": 3,
+                    "ufi": 20127504,
+                    "isFirstPage": true,
+                    "countryCode": "us",
+                    "isPreferred": true,
+                    "checkout": {
+                        "untilTime": "12:00",
+                        "fromTime": "00:00"
+                    },
+                    "currency": "USD",
+                    "wishlistName": "Dallas",
+                    "id": 42484,
+                    "checkinDate": "2023-12-14",
+                    "longitude": -96.8504744768143,
+                    "position": 14,
+                    "mainPhotoId": 484319419,
+                    "rankingPosition": 14,
+                    "reviewScore": 8.6,
+                    "priceBreakdown": {
+                        "excludedPrice": {
+                            "currency": "AED",
+                            "value": 187.410726114806
+                        },
+                        "taxExceptions": [],
+                        "benefitBadges": [],
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 1083.29899488327
+                        }
+                    },
+                    "checkoutDate": "2023-12-16",
+                    "accuratePropertyClass": 3,
+                    "latitude": 32.8613080584911,
+                    "checkin": {
+                        "fromTime": "15:00",
+                        "untilTime": "23:00"
+                    },
+                    "optOutFromGalleryChanges": 0,
+                    "reviewCount": 891,
+                    "blockIds": [
+                        "4248403_368622603_2_1_0"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/484319419.jpg?k=5a919a225d2aca1f52b53bca8f68585d376a1d0d3d54e72e4d6fc10a622795c7&o="
+                    ]
+                }
+            },
+            {
+                "hotel_id": 42446,
+                "accessibilityLabel": "Embassy Suites by Hilton Dallas Market Center.\n3 out of 5 stars.\n7.5 Good 797 reviews.\n‎5 km from center‬\n‎Travel Sustainable‬.\n Hotel room : 2 beds.\n984 AED.\n+170 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "blockIds": [
+                        "4244607_339878540_2_1_0"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/484624869.jpg?k=a165deb522b592a6a7f14543928843b1a573a3081e10e6b1e802689c151eba87&o="
+                    ],
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "fromTime": "16:00",
+                        "untilTime": "00:00"
+                    },
+                    "reviewCount": 797,
+                    "accuratePropertyClass": 3,
+                    "checkoutDate": "2023-12-16",
+                    "latitude": 32.8083733589838,
+                    "rankingPosition": 15,
+                    "priceBreakdown": {
+                        "taxExceptions": [],
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 984.149595351584
+                        },
+                        "benefitBadges": [],
+                        "excludedPrice": {
+                            "value": 170.257879995824,
+                            "currency": "AED"
+                        }
+                    },
+                    "reviewScore": 7.5,
+                    "wishlistName": "Dallas",
+                    "checkinDate": "2023-12-14",
+                    "id": 42446,
+                    "currency": "USD",
+                    "position": 15,
+                    "longitude": -96.844841837883,
+                    "mainPhotoId": 484624869,
+                    "isPreferred": true,
+                    "checkout": {
+                        "untilTime": "11:00",
+                        "fromTime": "00:00"
+                    },
+                    "propertyClass": 3,
+                    "ufi": 20127504,
+                    "isFirstPage": true,
+                    "countryCode": "us",
+                    "reviewScoreWord": "Good",
+                    "qualityClass": 0,
+                    "name": "Embassy Suites by Hilton Dallas Market Center"
+                }
+            },
+            {
+                "hotel_id": 184192,
+                "accessibilityLabel": "Holiday Inn Express Hotel & Suites Dallas West, an IHG Hotel.\n3 out of 5 stars.\n8.1 Very Good 899 reviews.\n‎9 km from center‬.\n Hotel room : 2 beds.\n874 AED.\n+114 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "blockIds": [
+                        "18419204_244944920_2_1_549755813888"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/247344069.jpg?k=26cadc3462839613f4e4064540d8e07e29e794d62aebbdf0368484d947a2a5d1&o="
+                    ],
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "untilTime": "00:00",
+                        "fromTime": "15:00"
+                    },
+                    "reviewCount": 899,
+                    "accuratePropertyClass": 3,
+                    "checkoutDate": "2023-12-16",
+                    "latitude": 32.7642197183072,
+                    "rankingPosition": 16,
+                    "priceBreakdown": {
+                        "excludedPrice": {
+                            "value": 113.617867463351,
+                            "currency": "AED"
+                        },
+                        "taxExceptions": [],
+                        "benefitBadges": [],
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 873.983595871929
+                        }
+                    },
+                    "reviewScore": 8.1,
+                    "wishlistName": "Dallas",
+                    "checkinDate": "2023-12-14",
+                    "id": 184192,
+                    "currency": "USD",
+                    "longitude": -96.8936245143414,
+                    "position": 16,
+                    "mainPhotoId": 247344069,
+                    "isPreferred": true,
+                    "checkout": {
+                        "untilTime": "11:00",
+                        "fromTime": "00:00"
+                    },
+                    "propertyClass": 3,
+                    "ufi": 20127504,
+                    "isFirstPage": true,
+                    "countryCode": "us",
+                    "reviewScoreWord": "Very Good",
+                    "name": "Holiday Inn Express Hotel & Suites Dallas West, an IHG Hotel",
+                    "qualityClass": 0
+                }
+            },
+            {
+                "hotel_id": 522059,
+                "accessibilityLabel": "Hotel Crescent Court.\n5 out of 5 stars.\n9.1 Wonderful 161 reviews.\n‎Uptown Dallas‬ • ‎1.3 km from center‬\n‎This property has free cribs available‬.\n Hotel room : 1 bed.\nOriginal price 3784 AED. Current price 3444 AED..\n+698 AED taxes and charges.",
+                "property": {
+                    "rankingPosition": 17,
+                    "priceBreakdown": {
+                        "benefitBadges": [],
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 3443.64225573471
+                        },
+                        "taxExceptions": [],
+                        "strikethroughPrice": {
+                            "value": 3784.20208212615,
+                            "currency": "AED"
+                        },
+                        "excludedPrice": {
+                            "currency": "AED",
+                            "value": 698.185284152274
+                        }
+                    },
+                    "reviewScore": 9.1,
+                    "accuratePropertyClass": 5,
+                    "checkoutDate": "2023-12-16",
+                    "latitude": 32.79403,
+                    "checkin": {
+                        "fromTime": "16:00",
+                        "untilTime": "00:00"
+                    },
+                    "optOutFromGalleryChanges": 0,
+                    "reviewCount": 161,
+                    "blockIds": [
+                        "52205905_91475684_2_0_0"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/149670624.jpg?k=e533af674868c753aa5e320fe318300aea4919a396b77007727e9c56619a36b1&o="
+                    ],
+                    "reviewScoreWord": "Wonderful",
+                    "name": "Hotel Crescent Court",
+                    "qualityClass": 0,
+                    "propertyClass": 5,
+                    "ufi": 20127504,
+                    "countryCode": "us",
+                    "isFirstPage": true,
+                    "isPreferred": true,
+                    "checkout": {
+                        "untilTime": "12:00",
+                        "fromTime": "00:00"
+                    },
+                    "wishlistName": "Dallas",
+                    "id": 522059,
+                    "checkinDate": "2023-12-14",
+                    "currency": "USD",
+                    "position": 17,
+                    "longitude": -96.804172,
+                    "mainPhotoId": 149670624
+                }
+            },
+            {
+                "hotel_id": 253117,
+                "accessibilityLabel": "Magnolia Hotel Downtown Dallas.\n4 out of 5 stars.\n7.5 Good 1234 reviews.\n‎Main Street District‬ • ‎400 m from center‬\n‎Travel Sustainable‬\n‎This property has free cribs available‬.\n Hotel room : 2 beds.\nOriginal price 1094 AED. Current price 896 AED..\n+337 AED taxes and charges.\nFree cancellation.",
+                "property": {
+                    "accuratePropertyClass": 4,
+                    "checkoutDate": "2023-12-16",
+                    "latitude": 32.7799661024139,
+                    "rankingPosition": 18,
+                    "priceBreakdown": {
+                        "excludedPrice": {
+                            "currency": "AED",
+                            "value": 337.364571742532
+                        },
+                        "strikethroughPrice": {
+                            "value": 1094.31559483124,
+                            "currency": "AED"
+                        },
+                        "taxExceptions": [],
+                        "benefitBadges": [
+                            {
+                                "text": "Mobile-only price",
+                                "explanation": "Mobile-only price",
+                                "variant": "constructive",
+                                "identifier": "Mobile Rate"
+                            }
+                        ],
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 896.237127766819
+                        }
+                    },
+                    "reviewScore": 7.5,
+                    "blockIds": [
+                        "25311702_237188249_2_0_0"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/105226416.jpg?k=3f33d373fa97afd1bb56a45af48f55702fe7a64edf51de377902321f9b8ea1a6&o="
+                    ],
+                    "checkin": {
+                        "untilTime": "00:00",
+                        "fromTime": "16:00"
+                    },
+                    "optOutFromGalleryChanges": 1,
+                    "reviewCount": 1234,
+                    "propertyClass": 4,
+                    "ufi": 20127504,
+                    "isFirstPage": true,
+                    "countryCode": "us",
+                    "reviewScoreWord": "Good",
+                    "qualityClass": 0,
+                    "name": "Magnolia Hotel Downtown Dallas",
+                    "wishlistName": "Dallas",
+                    "id": 253117,
+                    "checkinDate": "2023-12-14",
+                    "currency": "USD",
+                    "longitude": -96.7990230023861,
+                    "position": 18,
+                    "mainPhotoId": 105226416,
+                    "isPreferred": true,
+                    "checkout": {
+                        "untilTime": "11:00",
+                        "fromTime": "00:00"
+                    }
+                }
+            },
+            {
+                "hotel_id": 457668,
+                "accessibilityLabel": "La Quinta by Wyndham Dallas Love Field.\n3 out of 5 stars.\n7.8 Good 1424 reviews.\n‎9 km from center‬.\n Hotel room : 1 bed.\n701 AED.\n+119 AED taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+                "property": {
+                    "ufi": 20127504,
+                    "propertyClass": 3,
+                    "countryCode": "us",
+                    "isFirstPage": true,
+                    "qualityClass": 0,
+                    "name": "La Quinta by Wyndham Dallas Love Field",
+                    "reviewScoreWord": "Good",
+                    "currency": "USD",
+                    "id": 457668,
+                    "wishlistName": "Dallas",
+                    "checkinDate": "2023-12-14",
+                    "mainPhotoId": 203464724,
+                    "position": 19,
+                    "longitude": -96.8772375583649,
+                    "isPreferred": true,
+                    "checkout": {
+                        "untilTime": "11:00",
+                        "fromTime": "00:00"
+                    },
+                    "checkoutDate": "2023-12-16",
+                    "accuratePropertyClass": 3,
+                    "latitude": 32.8228880165666,
+                    "rankingPosition": 19,
+                    "reviewScore": 7.8,
+                    "priceBreakdown": {
+                        "excludedPrice": {
+                            "value": 119.236333436813,
+                            "currency": "AED"
+                        },
+                        "benefitBadges": [],
+                        "grossPrice": {
+                            "currency": "AED",
+                            "value": 701.390196687136
+                        },
+                        "taxExceptions": []
+                    },
+                    "blockIds": [
+                        "45766801_246079497_3_1_0"
+                    ],
+                    "photoUrls": [
+                        "https://cf.bstatic.com/xdata/images/hotel/square60/203464724.jpg?k=c67d4606ac5270857457728b05622021ea886f04e894aac781ec48ff6ca4a884&o="
+                    ],
+                    "reviewCount": 1424,
+                    "optOutFromGalleryChanges": 0,
+                    "checkin": {
+                        "untilTime": "00:00",
+                        "fromTime": "15:00"
+                    }
+                }
+            }
+        ],
+        "meta": [
+            {
+                "title": "216 properties"
+            }
+        ],
+        "appear": [
+            {
+                "contentUrl": "https://mobile-apps.booking.com/json/mobile.saba?route_path=saba-chat-entrypoint&add_bh_info=1&add_genius_percentage_value=1&add_ribbon_text=1&affiliate_id=332731&arrival_date=2023-12-14&autoextend=1&booked_x_times_for_dates=1&booked_x_times_threshold=1&categories_filter_additional_data=&change_popularity_sort_option_copy_tag=1&change_sort_options_copy_tags=1&check_excluded_charge_or_tax=1&check_flexible_dates=1&check_is_candidate_wholesaler=1&currency_code=AED&dark_mode=1&deeplink_sec_since_click=168567.9046729803&departure_date=2023-12-16&dest_ids=20127504&device_id=57d11ec8bad14e119e4c15a86202c23f&distance_unit=metric&dl_sr_adoption=1&dotd=2&exposure_api_version=2.17&fix_dotd=1&flex_window=0&generate_map_bounding_box=1&get_cny_campaign_banner=1&get_skiing_info=1&guest_qty=1&include_amazon_banner=1&include_apartment_config=1&include_badges_in_price_breakdown=1&include_beach_information=1&include_bh_quality_classification=1&include_block_ids=1&include_bsb_info=1&include_bwallet_hotel_eligibility=1&include_composite_breakdown=1&include_cpc_non_trader_copy=1&include_excluded_charges_detail=1&include_free_cancellation=1&include_genius_badge=1&include_last_reservation=1&include_nr_bookings_best_range_message=1&include_nr_bookings_today=1&include_offered_bed_types=1&include_preview_cards=1&include_rack_rate_savings=1&include_rtb=1&include_ski_information=1&languagecode=en-us&location_source=recents&mark_first_highlighted_hotel=1&min_saba_version=31&network_type=wifi&new_segments_carousel=1&offset=0&optimized_call=1&outcome=search_results&page_define_enabled=1&pref_match=0&reason=change_sort_options&remove_wishlist_padding=1&room_qty=1&rows=auto&saba=1&saba_payload_root=1&saba_version=50&sb_calendar_open=1&search_type=city&send_ranking_version=1&send_search_id=1&show_beach_filter_badge=1&show_city_distance=1&show_distance_to_beach=1&show_distance_to_nearest_public_transport=1&show_genius_free_breakfast=0&show_if_mobile_deal=1&show_negotiated_rates=1&show_no_prepayment=1&show_policy=1&show_review_score_breakdowns=1&show_selected_filter_values=1&show_soldout=1&sort_by=auto&sort_by_source=sort_options&sort_genius_new_copy=1&source=search_results&temperature_unit=c&travel_purpose=&unfiltered_count_enabled=1&units=metric&use_dest_based_list_creation=1&use_direct_payment=1&user_os=15.5&user_version=36.8-iphone&categories_filter=price%3A%3AAED-min-max&children_qty=2&children_age=0%2C17&page=search-results"
+            },
+            {
+                "id": "signin_now",
+                "component": {
+                    "props": {
+                        "text": "Get instant access to our Genius loyalty program and enjoy discounts at properties worldwide.",
+                        "title": "Sign in and save money"
+                    }
+                }
+            }
+        ]
+    }
+}

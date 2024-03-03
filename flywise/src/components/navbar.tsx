@@ -14,7 +14,7 @@ const user = {
 }
 const navigation = [
   { name: 'Vacation', href: '/', current: false },
-  { name: 'Flights', href: '/flights', current: false },
+  { name: 'Hotels', href: '/hotels', current: false },
   { name: 'Deals', href: '/deals', current: false },
   { name: 'Destinations', href: '/destinations', current: false },
   { name: 'News', href: '/news', current: false },
