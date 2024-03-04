@@ -2,12 +2,14 @@ import React from "react";
 import NavBar from "./navbar.tsx";
 import { useState } from 'react';
 
-const NewsCard = ({title, desciprtion, url, imageUrl}) =>(
-    <div className='news-card'>
-        <img src={imageUrl} alt={title}/>
-        <h3>{title}</h3>
-        <p>{desciprtion}</p>
-        <a href={url} target="_blank" rel="noopener noreferrer">Read more</a>
+const NewsCard = ({title, desciprtion, url, imageUrl, index}) =>(
+    <div className="flex justify-between mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 grid grid-cols-3 gap-4 ">
+        <div key={index} className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <img className="p-8 rounded-t-lg" src={imageUrl} alt={title}/>
+            <h3 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{title}</h3>
+            {/* <p>{desciprtion}</p> */}
+            <a href={url} target="_blank" rel="noopener noreferrer">Read more</a>
+        </div>
     </div>
 );
 
@@ -23,11 +25,11 @@ const News = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Selected city:', city)
-
+        console.log('Selected city:', city.toString())
+        var city_query = city.toString();
         try{
-            const response = await fetch("https://newsapi.org/v2/everything?q={city}&sortBy=publishedAt&apiKey=53c543d3d80244779e87c062a1a6c1dc");
-
+            var query = "https://newsapi.org/v2/everything?q="+ city_query+"&sortBy=publishedAt&apiKey=53c543d3d80244779e87c062a1a6c1dc";
+            const response = await fetch(query);
             if(!response.ok){
                 throw new Error('Failed to fetch data');
 
@@ -65,6 +67,7 @@ const News = () => {
                 {newsInfo.articles.map((article, index) => (
                     <NewsCard
                     key={index}
+                    index={index}
                     title={article.title}
                     description={article.description}
                     url={article.url}
