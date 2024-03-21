@@ -36,7 +36,7 @@ const News = () => {
             const data = await response.json();
             setNewsInfo(data);
             setError(null);
-            console.log(data);
+            
         }catch(error){
             setNewsInfo(null);
             setError("Error fetching data. Please try again.");
