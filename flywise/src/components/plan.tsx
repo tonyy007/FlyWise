@@ -2,6 +2,9 @@ import React from "react";
 import { useState } from 'react';
 import hotel_travel_data from './output.json'
 
+const unique_preferences = ['Shopping', 'Sea', 'Statue', 'Food', 'Art', 'Beach', 'Fashion', 'Nature', 'Mountain']
+const unique_ratings = ['TwoStar', 'FiveStar', 'FourStar', 'ThreeStar', 'All', 'OneStar']
+
 const Plan = () => {
     const [startDate,setStartDate] = useState('');
     const [endDate,setEndDate] = useState('');

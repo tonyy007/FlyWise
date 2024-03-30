@@ -54,6 +54,17 @@ print(50 * '*')
 print(pref)
 print(50 * '*')
 
+
+keys_to_extract = ["preference", " HotelRating"]
+
+for k in keys_to_extract:
+    unique_values = set(d[k] for d in extracted_data)
+    print(50 * '*')
+    print(k)
+    print(50 * '*')
+    print(list(unique_values))
+    print(50 * '*')
+
 file_path = 'output.json'
 with open(file_path, 'w') as json_file:
     json.dump(extracted_data, json_file)
