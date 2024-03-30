@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Deals from './components/deals.tsx';
+import Profile from './components/profile.tsx';
 import Hotels from './components/hotels.tsx';
 import Destination from './components/destination.tsx';
 import Main from './components/main.tsx';
@@ -13,6 +14,7 @@ const App = () => {
       <NavBar/>
         <Routes>
            <Route path="/" element={<Main />} />
+           <Route path="/profile" element={<Profile />} />
            <Route path="/deals" element={<Deals />} />
            <Route path="/hotels" element={<Hotels />} />
            <Route path="/destinations" element={<Destination />} />
