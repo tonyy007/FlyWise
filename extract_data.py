@@ -34,6 +34,12 @@ pref = {
 pref_keys = pref.keys()
 extracted_data = []
 
+def replace_nans_with_string(d):
+    for key, value in d.items():
+        if isinstance(value, float) and value != value:  # Check if value is NaN
+            d[key] = "NaN"
+    return d
+
 for index, row in filtered_df.iterrows():
     for key in pref_keys:
         if key in row[attraction_col_name] and pref[key] < 100:
@@ -44,6 +50,7 @@ for index, row in filtered_df.iterrows():
             del data_json[' Map']
             del data_json[attraction_col_name]
             data_json["preference"] = key
+            data_json = replace_nans_with_string(data_json)
             extracted_data.append(data_json)
 
 
@@ -53,6 +60,8 @@ print(50 * '*')
 print(50 * '*')
 print(pref)
 print(50 * '*')
+
+
 
 
 keys_to_extract = ["preference", " HotelRating"]
