@@ -3,18 +3,24 @@ import { useState } from 'react';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import Button from '@mui/material/Button';
+import Snackbar from '@mui/material/Snackbar';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
 
 import hotel_travel_data from './output.json'
 
-const unique_preferences = ['Shopping', 'Sea', 'Statue', 'Food', 'Art', 'Beach', 'Fashion', 'Nature', 'Mountain']
+const unique_preferences = ['sea', 'mountain', 'art', 'statue', 'fashion', 'shopping', 'nature', 'food', 'beach']
 const unique_ratings = ['TwoStar', 'FiveStar', 'FourStar', 'ThreeStar', 'All', 'OneStar']
+const unique_purpose = ['leisure', 'business', 'family_vacation', 'honeymoon']
 
 const Plan = () => {
     const [startDate,setStartDate] = useState('');
     const [endDate,setEndDate] = useState('');
     const [preference,setPreference] = useState('');
     const [rating,setRating] = useState('');
+    const [purpose,setPurpose] = useState('');
     const [filteredHotes, setFilteredHotels] = useState([]);
+    const [showError, setShowError] = useState(false)
 
     const handlePreference = (v) => {
         setPreference(v)
@@ -24,10 +30,37 @@ const Plan = () => {
         setRating(v)
     }
 
+    const handlePurpose = (v) => {
+        setPurpose(v)
+    }
+
+    const handleClose = (event: React.SyntheticEvent | Event, reason?: string) => {
+        if (reason === 'clickaway') {
+          return;
+        }
+        setShowError(false);
+      };
+    
+      const action = (
+        <React.Fragment>
+          <IconButton
+            size="small"
+            aria-label="close"
+            color="inherit"
+            onClick={handleClose}
+          >
+            <CloseIcon fontSize="small" />
+          </IconButton>
+        </React.Fragment>
+      );
+
     const handleSubmit = (event) => {
         event.preventDefault();
-        const filtered_list = hotel_travel_data.filter(obj => obj["preference"] === preference["value"] && obj[" HotelRating"] === rating["value"]);
+        const filtered_list = hotel_travel_data.filter(obj => obj["preference"] === preference["value"] && obj[" HotelRating"] === rating["value"] && obj["trip_purpose_hotel"].includes(purpose["value"]));
         setFilteredHotels(filtered_list);
+        if (Object.keys(filtered_list).length === 0) {
+            setShowError(true)
+        }
       };
     
 
@@ -39,24 +72,17 @@ const Plan = () => {
             <form onSubmit={handleSubmit}>
               <div className="flex justify-between mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 ">
                 <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">    
+                  <br></br>
                   <div className="flex items-center">
-                    <div className="relative">
-                      <input name="start" onChange={(e) => {setStartDate(e.currentTarget.value); console.log(startDate)}} type="text" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date start"></input>
-                    </div>
-                    <span className="mx-4 text-gray-500">to</span>
-                    <div className="relative">
-                      <input style= {{
-    borderRadius:5
-                      }} name="end" onChange={(e) => {setEndDate(e.currentTarget.value); console.log(endDate)}} type="text" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date end"></input>
-                    </div>
+                    <Dropdown className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" options={unique_preferences} onChange={handlePreference} placeholder="Select Preference" />
                   </div>
                   <br></br>
                   <div className="flex items-center">
-                    Preference: <Dropdown className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" options={unique_preferences} onChange={handlePreference} placeholder="Select Preference" />
+                    <Dropdown className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" options={unique_ratings} onChange={handleRating} placeholder="Select Budget Rating" />
                   </div>
                   <br></br>
                   <div className="flex items-center">
-                    Rating: <Dropdown className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" options={unique_ratings} onChange={handleRating} placeholder="Select Rating" />
+                    <Dropdown className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" options={unique_purpose} onChange={handlePurpose} placeholder="Select Trip Purpose" />
                   </div>
                   <br></br>
                   <div className="flex items-center">
@@ -94,11 +120,19 @@ const Plan = () => {
                                         </div>
                                         <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">{hotel[" HotelRating"]}</span>
                                     </div>
+                                    <p className="text-xs font-semibold tracking-tight text-gray-900 dark:text-white">{hotel[" PhoneNumber"]}</p>
                                 </div>
                             </div>
                         ))}
                     </div>
               </form>
+              <Snackbar
+                    open={showError}
+                    autoHideDuration={6000}
+                    onClose={handleClose}
+                    message="No Hotel Found!"
+                    action={action}
+                />
             </main>
           </div>
         </>
